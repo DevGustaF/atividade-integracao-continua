@@ -18,7 +18,7 @@ module.exports = {
     },
     divisao: (a, b) => {
         if(b === 0){
-            throw new TypeError("Divisão ilegal por zero!")
+            throw new TypeError("Divisão ilegal por zero!!!")
         }
         return a/b
     },
